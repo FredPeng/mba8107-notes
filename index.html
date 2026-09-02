@@ -813,14 +813,78 @@
 <h3 contenteditable="false">Porter's Five Forces（波特五力模型）</h3>
 
 <div class="box" contenteditable="false">
-  <div class="note">这一节的内容待补。</div>
+  <p>Michael Porter（哈佛商学院，1979）提出的<strong>行业分析框架</strong>，回答的核心问题：
+    <strong>这个行业为什么赚钱（或不赚钱）？</strong>
+    行业的平均利润率由五种竞争力量的强弱共同决定——<span class="term">五力越强，行业越难赚钱</span>。</p>
+
+  <div class="flow" contenteditable="false">
+    <div class="fstep">2. Threat of New Entrants<span class="cn">新进入者的威胁</span></div>
+    <div class="farrow">↓</div>
+    <div class="fcols two">
+      <div><strong>5. Supplier Power</strong><span class="cn">供应商议价能力 →</span></div>
+      <div><strong>4. Buyer Power</strong><span class="cn">← 买方议价能力</span></div>
+    </div>
+    <div class="farrow">↕ 中心</div>
+    <div class="fstep start">1. Competitive Rivalry<span class="cn">现有竞争者之间的竞争强度</span></div>
+    <div class="farrow">↑</div>
+    <div class="fstep">3. Threat of Substitutes<span class="cn">替代品的威胁</span></div>
+  </div>
+
+  <h4 contenteditable="false">1. Competitive Rivalry（现有竞争者的竞争强度）— 模型的中心</h4>
+  <ul>
+    <li>看什么：对手数量、行业增速、产品同质化程度、退出壁垒。<strong>对手越多、产品越像，越容易打价格战。</strong></li>
+    <li><span class="meta">肯尼亚例子：移动数字信贷 App，几十家产品几乎一样，利润被打穿。</span></li>
+  </ul>
+
+  <h4 contenteditable="false">2. Threat of New Entrants（新进入者的威胁）</h4>
+  <ul>
+    <li>看<span class="term">进入壁垒（barriers to entry）</span>：资本要求、规模经济、品牌忠诚、渠道控制、监管牌照。<strong>壁垒低，今天赚钱也守不住。</strong></li>
+    <li><span class="meta">例子：奶茶店几乎无壁垒，一条街五家；银行牌照壁垒高，玩家稳定。</span></li>
+  </ul>
+
+  <h4 contenteditable="false">3. Threat of Substitutes（替代品的威胁）</h4>
+  <ul>
+    <li>不是同行，而是<strong>用别的方式满足同一需求</strong>的东西。往往来自视野之外，是杀死行业的那把刀。</li>
+    <li><span class="meta">例子：流媒体替代 DVD 租赁（见第一节课 Netflix 案例）；boda boda 替代出租车；M-Pesa 替代银行转账。</span></li>
+  </ul>
+
+  <h4 contenteditable="false">4. Bargaining Power of Buyers（买方议价能力）</h4>
+  <ul>
+    <li>买方什么时候强：买方集中（大客户占销售额比例高）、转换成本低、产品无差异。</li>
+    <li><span class="meta">例子：给 Carrefour / Naivas 供货的小供应商，账期和价格几乎没有谈判余地。</span></li>
+  </ul>
+
+  <h4 contenteditable="false">5. Bargaining Power of Suppliers（供应商议价能力）</h4>
+  <ul>
+    <li>供应商什么时候强：供应商集中、投入品独特、转换供应商代价高。</li>
+    <li><span class="meta">例子：依赖进口的行业（燃油、药品、电子产品），定价权在上游，汇率一动利润就被吃掉。</span></li>
+  </ul>
+
+  <h4 contenteditable="false">怎么用</h4>
+  <ul>
+    <li>逐力打分（强/中/弱）并写出<strong>证据</strong>，合起来判断行业结构的吸引力。</li>
+    <li>回答战略问题：要不要进入？在行业里怎么定位才能避开最强的力？能不能通过战略动作削弱某个力（如提高客户转换成本来削弱买方力量）？</li>
+  </ul>
+
+  <div class="note">
+    <strong>常见误用：</strong>① 分析对象是<strong>行业</strong>，不是某家公司（公司层面用 SWOT / 资源能力分析）；
+    ② 它是静态快照，要配合行业生命周期看趋势；
+    ③ 替代品和新进入者最容易被敷衍带过，但往往最关键。
+  </div>
+
+  <div class="note">
+    <strong>与其他工具的关系：</strong>PESTEL 看宏观环境（行业外的大气候）→ 五力看行业结构（行业内的力场）→ SWOT 落到公司自身。
+    三层从外到内，正好构成 Step 1 战略分析的完整视野。蓝海战略则是对五力的「反叛」——与其在结构里找位置，不如重画行业边界让五力失效。
+  </div>
+
+  <p class="meta">（本节为课外补充整理，非 slides 原文；老师讲的版本贴来后以课堂内容为准。）</p>
 </div>
 
 </div>
 
 <script>
 let editMode = false;
-const NOTES_VERSION = '2026-09-02-session2-five-forces-heading-v1';
+const NOTES_VERSION = '2026-09-02-session2-five-forces-detail-v1';
 
 function toggleEdit() {
   editMode = !editMode;
